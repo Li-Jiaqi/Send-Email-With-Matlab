@@ -1,8 +1,8 @@
 # Send-Email-With-Matlab
-A matlab function helps to send e-mail to you, which can work as a reminder of your program' status.
+  A matlab function which can helps to send e-mail to you, as a reminder of your program' status.
 
-This function sends an E-mail from the SenderAddress to the RecipientsAddress.
-It is based on the Mablab function: sendmail().
+  This function sends an E-mail from the SenderAddress to the RecipientsAddress.
+  It is based on the Mablab function: sendmail().
 
 ## Form: 
 ```Matlab
