@@ -6,6 +6,7 @@ It is based on the Mablab function: sendmail().
 
 ## Form: 
 '''Matlab
+
 MatlabSendMail(subject, content, RecipientsAddress, Attachments,SenderAddress,SenderPassword)
 '''
 ## Arguments:
