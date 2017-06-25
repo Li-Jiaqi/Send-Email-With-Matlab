@@ -5,10 +5,9 @@ This function sends an E-mail from the SenderAddress to the RecipientsAddress.
 It is based on the Mablab function: sendmail().
 
 ## Form: 
-'''Matlab
-
+```Matlab
 MatlabSendMail(subject, content, RecipientsAddress, Attachments,SenderAddress,SenderPassword)
-'''
+```
 ## Arguments:
   subject: subject of the mail. Default: 'subjectTest(FromMatlab)'
   
