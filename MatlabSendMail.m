@@ -3,12 +3,12 @@ function MatlabSendMail(subject, content, RecipientsAddress, Attachments,SenderA
 % It is based on the Mablab function: sendmail().
 % Form: MatlabSendMail(subject, content, RecipientsAddress, Attachments,SenderAddress,SenderPassword)
 % Input:
-%   subject: subject of the mail. Default: 'subjectTest(FromMatlab)'
-%   content: content of teh mail. Default: 'contentTest(FromMatlab)'
-%   RecipientsAddress: target address of mail. 
-%   Attachments: data path of  attachments.
-%   SenderAddress: source address of mail.
-%   SenderPassword: password of source address
+%  subject: subject of the mail. Default: 'subjectTest(FromMatlab)'
+%  content: content of teh mail. Default: 'contentTest(FromMatlab)'
+%  RecipientsAddress: target address of mail. 
+%  Attachments: data path of attachments. For example, ['./filename.txt']
+%  SenderAddress: sender address of mail.
+%  SenderPassword: password of sender address
 
 %%
 if nargin < 6 || isempty(SenderPassword)
