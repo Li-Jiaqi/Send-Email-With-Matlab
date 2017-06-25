@@ -9,14 +9,16 @@ It is based on the Mablab function: sendmail().
 MatlabSendMail(subject, content, RecipientsAddress, Attachments,SenderAddress,SenderPassword)
 ```
 ## Arguments:
-  subject: subject of the mail. Default: 'subjectTest(FromMatlab)'
+```Matlab
+%  subject: subject of the mail. Default: 'subjectTest(FromMatlab)'
   
-  content: content of teh mail. Default: 'contentTest(FromMatlab)'
+%  content: content of teh mail. Default: 'contentTest(FromMatlab)'
   
-  RecipientsAddress: target address of mail. 
+%  RecipientsAddress: target address of mail. 
   
-  Attachments: data path of  attachments.
+%  Attachments: data path of attachments. For example, ['./filename.txt']
   
-  SenderAddress: source address of mail.
+%  SenderAddress: sender address of mail.
   
-  SenderPassword: password of source address
+%  SenderPassword: password of sender address
+```
